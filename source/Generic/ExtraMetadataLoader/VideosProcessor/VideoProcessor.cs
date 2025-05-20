@@ -202,14 +202,16 @@ namespace ExtraMetadataLoader.VideosProcessor
             else
             {
                 var rangeStringList = new List<string>();
-                var clipDuration = 1;
+                var clipDuration = 2;
                 int[] startPercentageVideo = {
-                    15,
+                    5,
+                    10,
                     25,
-                    35,
-                    45,
+                    40,
                     55,
-                    65
+                    70,
+                    85,
+                    95,
                 };
 
                 foreach (var percentage in startPercentageVideo)
